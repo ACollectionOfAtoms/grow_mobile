@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7F3A0151C1F156800FBC077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F3A0141C1F156800FBC077 /* AppDelegate.swift */; };
+		D7F3A0171C1F156800FBC077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F3A0161C1F156800FBC077 /* ViewController.swift */; };
+		D7F3A01A1C1F156800FBC077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F3A0181C1F156800FBC077 /* Main.storyboard */; };
+		D7F3A01D1C1F156800FBC077 /* Grow_Mobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7F3A01B1C1F156800FBC077 /* Grow_Mobile.xcdatamodeld */; };
+		D7F3A01F1C1F156800FBC077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F3A01E1C1F156800FBC077 /* Assets.xcassets */; };
+		D7F3A0221C1F156800FBC077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F3A0201C1F156800FBC077 /* LaunchScreen.storyboard */; };
+		D7F3A02D1C1F156800FBC077 /* Grow_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F3A02C1C1F156800FBC077 /* Grow_MobileTests.swift */; };
+		D7F3A0381C1F156800FBC077 /* Grow_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F3A0371C1F156800FBC077 /* Grow_MobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7F3A0291C1F156800FBC077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F3A0091C1F156800FBC077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F3A0101C1F156800FBC077;
+			remoteInfo = "Grow Mobile";
+		};
+		D7F3A0341C1F156800FBC077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F3A0091C1F156800FBC077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F3A0101C1F156800FBC077;
+			remoteInfo = "Grow Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7F3A0111C1F156800FBC077 /* Grow Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grow Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F3A0141C1F156800FBC077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7F3A0161C1F156800FBC077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7F3A0191C1F156800FBC077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7F3A01C1C1F156800FBC077 /* Grow_Mobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grow_Mobile.xcdatamodel; sourceTree = "<group>"; };
+		D7F3A01E1C1F156800FBC077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7F3A0211C1F156800FBC077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7F3A0231C1F156800FBC077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F3A0281C1F156800FBC077 /* Grow MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grow MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F3A02C1C1F156800FBC077 /* Grow_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grow_MobileTests.swift; sourceTree = "<group>"; };
+		D7F3A02E1C1F156800FBC077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F3A0331C1F156800FBC077 /* Grow MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grow MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F3A0371C1F156800FBC077 /* Grow_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grow_MobileUITests.swift; sourceTree = "<group>"; };
+		D7F3A0391C1F156800FBC077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7F3A00E1C1F156800FBC077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F3A0251C1F156800FBC077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F3A0301C1F156800FBC077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7F3A0081C1F156800FBC077 = {
+			isa = PBXGroup;
+			children = (
+				D7F3A0131C1F156800FBC077 /* Grow Mobile */,
+				D7F3A02B1C1F156800FBC077 /* Grow MobileTests */,
+				D7F3A0361C1F156800FBC077 /* Grow MobileUITests */,
+				D7F3A0121C1F156800FBC077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7F3A0121C1F156800FBC077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7F3A0111C1F156800FBC077 /* Grow Mobile.app */,
+				D7F3A0281C1F156800FBC077 /* Grow MobileTests.xctest */,
+				D7F3A0331C1F156800FBC077 /* Grow MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7F3A0131C1F156800FBC077 /* Grow Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				D7F3A0141C1F156800FBC077 /* AppDelegate.swift */,
+				D7F3A0161C1F156800FBC077 /* ViewController.swift */,
+				D7F3A0181C1F156800FBC077 /* Main.storyboard */,
+				D7F3A01E1C1F156800FBC077 /* Assets.xcassets */,
+				D7F3A0201C1F156800FBC077 /* LaunchScreen.storyboard */,
+				D7F3A0231C1F156800FBC077 /* Info.plist */,
+				D7F3A01B1C1F156800FBC077 /* Grow_Mobile.xcdatamodeld */,
+			);
+			path = "Grow Mobile";
+			sourceTree = "<group>";
+		};
+		D7F3A02B1C1F156800FBC077 /* Grow MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7F3A02C1C1F156800FBC077 /* Grow_MobileTests.swift */,
+				D7F3A02E1C1F156800FBC077 /* Info.plist */,
+			);
+			path = "Grow MobileTests";
+			sourceTree = "<group>";
+		};
+		D7F3A0361C1F156800FBC077 /* Grow MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7F3A0371C1F156800FBC077 /* Grow_MobileUITests.swift */,
+				D7F3A0391C1F156800FBC077 /* Info.plist */,
+			);
+			path = "Grow MobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7F3A0101C1F156800FBC077 /* Grow Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F3A03C1C1F156800FBC077 /* Build configuration list for PBXNativeTarget "Grow Mobile" */;
+			buildPhases = (
+				D7F3A00D1C1F156800FBC077 /* Sources */,
+				D7F3A00E1C1F156800FBC077 /* Frameworks */,
+				D7F3A00F1C1F156800FBC077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grow Mobile";
+			productName = "Grow Mobile";
+			productReference = D7F3A0111C1F156800FBC077 /* Grow Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7F3A0271C1F156800FBC077 /* Grow MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F3A03F1C1F156800FBC077 /* Build configuration list for PBXNativeTarget "Grow MobileTests" */;
+			buildPhases = (
+				D7F3A0241C1F156800FBC077 /* Sources */,
+				D7F3A0251C1F156800FBC077 /* Frameworks */,
+				D7F3A0261C1F156800FBC077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7F3A02A1C1F156800FBC077 /* PBXTargetDependency */,
+			);
+			name = "Grow MobileTests";
+			productName = "Grow MobileTests";
+			productReference = D7F3A0281C1F156800FBC077 /* Grow MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7F3A0321C1F156800FBC077 /* Grow MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F3A0421C1F156800FBC077 /* Build configuration list for PBXNativeTarget "Grow MobileUITests" */;
+			buildPhases = (
+				D7F3A02F1C1F156800FBC077 /* Sources */,
+				D7F3A0301C1F156800FBC077 /* Frameworks */,
+				D7F3A0311C1F156800FBC077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7F3A0351C1F156800FBC077 /* PBXTargetDependency */,
+			);
+			name = "Grow MobileUITests";
+			productName = "Grow MobileUITests";
+			productReference = D7F3A0331C1F156800FBC077 /* Grow MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7F3A0091C1F156800FBC077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Grow;
+				TargetAttributes = {
+					D7F3A0101C1F156800FBC077 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D7F3A0271C1F156800FBC077 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D7F3A0101C1F156800FBC077;
+					};
+					D7F3A0321C1F156800FBC077 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D7F3A0101C1F156800FBC077;
+					};
+				};
+			};
+			buildConfigurationList = D7F3A00C1C1F156800FBC077 /* Build configuration list for PBXProject "Grow Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7F3A0081C1F156800FBC077;
+			productRefGroup = D7F3A0121C1F156800FBC077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7F3A0101C1F156800FBC077 /* Grow Mobile */,
+				D7F3A0271C1F156800FBC077 /* Grow MobileTests */,
+				D7F3A0321C1F156800FBC077 /* Grow MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7F3A00F1C1F156800FBC077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F3A0221C1F156800FBC077 /* LaunchScreen.storyboard in Resources */,
+				D7F3A01F1C1F156800FBC077 /* Assets.xcassets in Resources */,
+				D7F3A01A1C1F156800FBC077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F3A0261C1F156800FBC077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F3A0311C1F156800FBC077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7F3A00D1C1F156800FBC077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F3A0171C1F156800FBC077 /* ViewController.swift in Sources */,
+				D7F3A0151C1F156800FBC077 /* AppDelegate.swift in Sources */,
+				D7F3A01D1C1F156800FBC077 /* Grow_Mobile.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F3A0241C1F156800FBC077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F3A02D1C1F156800FBC077 /* Grow_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F3A02F1C1F156800FBC077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F3A0381C1F156800FBC077 /* Grow_MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7F3A02A1C1F156800FBC077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7F3A0101C1F156800FBC077 /* Grow Mobile */;
+			targetProxy = D7F3A0291C1F156800FBC077 /* PBXContainerItemProxy */;
+		};
+		D7F3A0351C1F156800FBC077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7F3A0101C1F156800FBC077 /* Grow Mobile */;
+			targetProxy = D7F3A0341C1F156800FBC077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7F3A0181C1F156800FBC077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F3A0191C1F156800FBC077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7F3A0201C1F156800FBC077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7F3A0211C1F156800FBC077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7F3A03A1C1F156800FBC077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7F3A03B1C1F156800FBC077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7F3A03D1C1F156800FBC077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Grow Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atom.Grow-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7F3A03E1C1F156800FBC077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Grow Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atom.Grow-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7F3A0401C1F156800FBC077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Grow MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atom.Grow-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grow Mobile.app/Grow Mobile";
+			};
+			name = Debug;
+		};
+		D7F3A0411C1F156800FBC077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Grow MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atom.Grow-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grow Mobile.app/Grow Mobile";
+			};
+			name = Release;
+		};
+		D7F3A0431C1F156800FBC077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Grow MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atom.Grow-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Grow Mobile";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D7F3A0441C1F156800FBC077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Grow MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atom.Grow-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Grow Mobile";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7F3A00C1C1F156800FBC077 /* Build configuration list for PBXProject "Grow Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F3A03A1C1F156800FBC077 /* Debug */,
+				D7F3A03B1C1F156800FBC077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F3A03C1C1F156800FBC077 /* Build configuration list for PBXNativeTarget "Grow Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F3A03D1C1F156800FBC077 /* Debug */,
+				D7F3A03E1C1F156800FBC077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7F3A03F1C1F156800FBC077 /* Build configuration list for PBXNativeTarget "Grow MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F3A0401C1F156800FBC077 /* Debug */,
+				D7F3A0411C1F156800FBC077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7F3A0421C1F156800FBC077 /* Build configuration list for PBXNativeTarget "Grow MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F3A0431C1F156800FBC077 /* Debug */,
+				D7F3A0441C1F156800FBC077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7F3A01B1C1F156800FBC077 /* Grow_Mobile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7F3A01C1C1F156800FBC077 /* Grow_Mobile.xcdatamodel */,
+			);
+			currentVersion = D7F3A01C1C1F156800FBC077 /* Grow_Mobile.xcdatamodel */;
+			path = Grow_Mobile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7F3A0091C1F156800FBC077 /* Project object */;
+}
